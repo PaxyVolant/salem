@@ -1,0 +1,178 @@
+.bas{
+ background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(image/home.jpg);
+ height: 100vh;
+ width: 100%;
+ background-position: center;
+ background-size: cover;
+ padding-left: 5%;
+ padding-right: 5%;
+ box-sizing: border-box;
+ position: relative;
+ color:yellow;
+
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 380px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li{
+    text-decoration: none;
+    color: yellow;
+}
+.text{
+    width:100%;
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    text-align:center;
+    color: rgb(238, 179, 17);
+}
+.title{
+    font-size: 70px;
+    line-height: 100px;
+    font-weight: bold;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    overflow: hidden;
+}
+.text p{
+    margin:20px auto;
+    font-size: 100;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+
+ul li{
+    background-color: black;
+    float: right;
+    height:40px ;
+    width: 160px;
+    background-color: whitesmoke;
+    color: yellow;
+    opacity: .6;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    transition: background-position 0.5s;
+    background-position: left;
+    background-size: 200%;
+    cursor: pointer;
+    border: 2px solid rgb(240, 192, 63);
+    border-radius: 20px;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+ul li :hover{
+    background-color: rgb(238, 179, 17);
+    background-position: right; 
+    border-radius: 20px;
+}
+.slider{
+    color: rgb(238, 179, 17);
+    margin-left: 12px;
+    box-sizing: border-box;
+    animation: slider 6s linear infinite;
+}
+@keyframes slider{
+    0%{ margin-top:-200px;}
+    30%{margin-top:-200px;}
+    35%{margin-top:0px;}
+    65%{margin-top:0px}
+    70%{margin-top:200px;}
+    100%{margin-top:200px;}
+
+}
+
+.deadline{
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(image/deadline.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+    color:yellow;
+}
+table{
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 69%;
+    height: 400px;
+    background: whitesmoke;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+    box-shadow:0 2px 12px rgb(161, 153, 131);
+    opacity: .8;
+    text-align: center;
+    color: black;
+}
+th{
+    background: rgba(231, 179, 136, 0.774);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'roboto', sans-serif;
+
+}
+th,td{
+    padding: 10px 15px;
+}
+td{
+    font-family: 'open sans', sans-serif;
+}
+tr:nth-child(odd){
+    background-color:rgb(247, 238, 228);
+}
+.papa{
+    font-size: 60px;
+    line-height: 100px;
+    font-weight: bold;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(238, 179, 17);
+    overflow: hidden;
+}
+
+.m2{
+  
+    font-size: 60px;
+    line-height: 100px;
+    font-weight: bold;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(238, 179, 17);
+    overflow: hidden;
+  
+}

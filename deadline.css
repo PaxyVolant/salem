@@ -1,0 +1,56 @@
+
+.deadline{
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(image/deadline.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+    color:yellow;
+}
+.reh{
+    display: flex;
+    width: 200px;
+    height: 212px;
+    flex-wrap: wrap;
+    margin: 200px auto;
+    background: rgb(238, 179, 17);
+
+}
+.figure{
+    flex-basis: 100px;
+    cursor: pointer;
+   position: relative;
+   transition: 2s;
+
+}
+.figure img{
+    width: 100px;
+}
+.figure::after{
+    content: "";
+    width: 100px;
+    height: 30px;
+    bottom: -29px;
+    left: 7px;
+    position: absolute;
+    background: #2d5661;
+    transform: skewX(26deg);
+}
+.figure::before{
+    content: "";
+    width: 15px;
+    height: 100px;
+    right: -14px;
+    top: 14px;
+    position: absolute;
+    background: #3c8898;
+    transform: skewy(65deg);
+}
+.reh:hover .figure:nth-child(image/1){
+    transform: translate(60px,230px);
+
+}
